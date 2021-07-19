@@ -22,8 +22,8 @@ public class PolicyHandler{
 
 
         // Sample Logic //
-        // Request request = new Request();
-        // requestRepository.save(request);
+        Request request = new Request();
+        requestRepository.save(request);
 
     }
 

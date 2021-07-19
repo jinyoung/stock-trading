@@ -8,6 +8,6 @@ import java.util.List;
 public interface AssetRepository extends CrudRepository<Asset, Long> {
 
     List<Asset> findByAccountId(String accountId);
-    List<Asset> findByAccountId(String accountId);
+
 
 }
